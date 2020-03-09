@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{pbm.AppName}"></title>
+</head>
+<body>
+<a th:href="@{/register}" th:text="Register">Register</a><br>
+
+
+<!--**************************************for test, temporary ******************************-->
+<a th:href="@{/login}" th:text="'Login'">link do ponownego logowania</a><br>
+<a th:href="@{/logout}" th:text="'Logout'">link do wylogowania</a>
+<!--shown only to logged users, they can see the page for logged users-->
+<div sec:authorize="isAuthenticated()">
+    <a th:href="@{/test-page}" th:text="'Site for logged users '">link do testowej strony dla zalogowanych</a>
+</div>
+<!--*****************************************************************************************-->
+</body>
+</html>
