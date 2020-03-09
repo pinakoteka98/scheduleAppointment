@@ -1,0 +1,119 @@
+.s-contact {
+    padding-bottom: 3rem;
+}
+
+.s-contact .overlay {
+    background-color: #F0F0F0 !important
+}
+
+.display-2--light {
+    color: black !important
+}
+
+.display-2--light {
+    background-color: transparent !important;
+}
+
+.contact-content {
+    max-width: 500px;
+    background-color: transparent !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.contact-primary {
+    width: 100%;
+}
+
+.header-menu-icon {
+    background-color: black !important
+}
+
+.header-menu-toggle.opaque {
+    background-color: white !important;
+}
+
+.header-menu-toggle.opaque .header-menu-text {
+    background-color: transparent !important;
+}
+
+.contact-content input[type="email"], .contact-content input[type="number"], .contact-content input[type="search"], .contact-content input[type="text"], .contact-content input[type="tel"], .contact-content input[type="url"], .contact-content input[type="password"], .contact-content textarea, .contact-content select {
+color: black !important;
+background-color: white !important;
+padding-left: 20px;
+padding-top: 15px;
+margin-bottom: 2.2rem;
+}
+
+.header-menu-text {
+width: 300px;
+left: -100px;
+}
+
+#zaloguj {
+    left: -300px;
+}
+
+.s-contact .form-field label {
+    bottom: 1rem;
+}
+
+::-webkit-input-placeholder {
+    color: grey !important;
+}
+
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: all 200ms;
+    transition: all 300ms;
+    font-size: 75%;
+    transform: translate3d(0, -125%, 0);
+    opacity: 1;
+    color: #80B76A !important;
+}
+
+.display-2 {
+font-size: 3rem;
+}
+
+button.btn--primary:focus {
+    background: #017A3D;
+    border-color: #017A3D;
+}
+
+#rememberMe {
+    font-size: 14px;
+    text-decoration: none;
+    line-height: inherit;
+    margin: 0;
+    display: inline;
+    color: black;
+    background: transparent;
+    top: .1rem;
+    left: 3rem;
+    padding: 0rem;
+}
+
+/* .s-contact .form-field label::after {
+    display: none;
+} */
+
+input {
+    margin-bottom: 0rem;
+}
+
+textarea {
+    line-height: 1.5rem;
+    min-height: 15rem;
+}
+
+select {
+    padding: 1rem 0;
+}
+
+select:required:invalid {
+    color: gray !important;
+}
+  select, option {
+    color: black !important;
+}
